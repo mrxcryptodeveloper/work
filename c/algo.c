@@ -4,11 +4,25 @@
 #include <math.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdint.h>
 
 #include "color.c"
 #include "decl_algo.c"
 
-typedef char str[];
+typedef char *str;
+// typedef char str[]; we can not chane string
+
+
+int swp(int arg[],int val1,int val2);           //  for change palce
+int sort(int arg[],int lenum);                  //  sorting algortm
+int cmpstr(char q[], char w[]);                 //  for compar string
+int cmpchar(char a[],char f,int s);             //  compar char =f,char mached,s=start from 
+int cmdline(char *argv[],char b[],int argc);    //  for command line recive arogumant and pross
+int binarySearch_adv(int array[] ,int arg);     //* sorted array and set() in py
+int decToBin(int numDec);                       //  decimal to binarry 
+
+
+
 
 // for change palce (replace value with toghter)
 int swp(int arg[],int val1,int val2)
@@ -119,7 +133,16 @@ int binarySearch_adv(int array[] ,int arg)
 }
 
 
-
+int decToBin(int numDec)
+{
+    int num=0,i;
+    for (i=0; numDec >= 1 ;i++)
+    {
+        // num = (numDec % 2) * (int)(pow(10,i)) + num;//pow have problem to test
+        numDec = numDec / 2;
+    }
+    return num;
+}
 
 
 

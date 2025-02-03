@@ -1,24 +1,24 @@
 
-// .sr abbr (syntax or source) rules
+//  .sr abbr (syntax or source) rules
 
-/* symbol mean
- * == important or should 
- ! == dengress
+/*  symbol mean
+    *   important or should 
+    !   dengress
 */
 
-/* return rules 
- 0 is false or no problem or seccuesful or +
- 1 is true or cerrect or -
--1 is confusing or unknown or problem
+/*  return rules 
+    0   hhbvshsvs  is false or no problem or seccuesful or +
+    1   is true or cerrect or -
+    -1  is confusing or unknown or problem
 */
 
-/* name 
- var name -> nmaeNameName or name_name_name or famous abbr 
- const or define -> every letter capital
+/*  name 
+    var name -> nmaeNameName or name_name_name or famous abbr 
+    const or define -> every letter capital
 */
 
-/ * structural form
- ' ' for readable code
+/*  structural form
+    ' ' for readable code
 
 type name(type agr ,type arg)
 {
@@ -27,7 +27,7 @@ type name(type agr ,type arg)
 
 */
 
-// delclear every func
+//  delclear every func and write one line descript
 
 
 
